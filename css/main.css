@@ -1,5 +1,5 @@
-/* Doc Name: petersSiteStyleSheet.css */
-/* HTML Refrencing Doc: PetersWebsite.html */
+/* Doc Name: main.css */
+/* HTML Refrencing Doc: index.html */
 
 /* GENERAL STYLES */
 * {
@@ -74,6 +74,14 @@ h1, h2 {
     font-size: 1em;
     margin: 0;
   }
+}
+.placeholder-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.placeholder {
+  margin: 1em;
 }
 
  /* SCROLLBAR STYLES */
@@ -240,7 +248,6 @@ h1, h2 {
   color: inherit;
 }
 .vector-art-grid {
-  /* margin: 5px; */
   display: grid;
   grid-template-columns: repeat(3, auto);
   justify-content: center;
@@ -249,17 +256,14 @@ h1, h2 {
 .vector-art-image-tile {
   margin: 5px;
   width: 400px;
-  max-width: 90vw;
   text-decoration: none;
 }
 .tile-container {
   width: 400px;
-  max-width: 90vw;
   background-color: #222222;
 }
 .tile-img {
   width: 400px;
-  max-width: 90vw;
 }
 .image-caption {
   padding: 0.2em;
@@ -275,13 +279,74 @@ h1, h2 {
     grid-template-columns: repeat(1, auto);
   }
 }
+@media screen and (max-width: 500px) {
+  .segment {
+    width: 95vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .segment-heading {
+    font-size: 1.5em;
+  }
+  .vector-art-grid {
+    width: 90vw;
+  }
+  .vector-art-img-tile {
+    width: 85vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .tile-container {
+    width: 85vw;
+  }
+  .tile-img {
+    width: 85vw;
+  }
+}
 
 /* WEB PROJECT STYLES */
+#web-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+}
+.project-tile {
+  margin: 10px;
+  width: 400px;
+  text-decoration: none;
+}
+.project-container {
+  background-color: rgba(60, 141, 188, 1.0);
+  box-shadow: 5px 5px 0 0 #222222;
+}
 .project-img {
   width: 400px;
 }
-.project-tile {
-  box-shadow: 5px 5px 0 0 #222222;
+.project-caption {
+  padding: 0.4em;
+  font-size: 1em;
+}
+@media screen and (max-width: 1340px) {
+  #web-projects-grid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media screen and (max-width: 900px) {
+  #web-projects-grid {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media screen and (max-width: 500px) {
+  .project-tile {
+    width: 85vw;
+  }
+  .project-container {
+    width: 85vw;
+  }
+  .project-img {
+    width: 85vw;
+  }
 }
 
 /* PHOTOS STYLES */
