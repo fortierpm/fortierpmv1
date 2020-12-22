@@ -169,6 +169,7 @@ h1, h2 {
   #page-header {
     height: 7em;
     flex-direction: column;
+    padding-bottom: 0.3em;
   }
   #nav-ul {
     flex-direction: column;
@@ -210,7 +211,7 @@ h1, h2 {
 }
 @media screen and (max-width: 500px) { /* phone screens */
   #landing-section {
-    margin-top: 7em;
+    margin-top: 7.3em;
   }
 }
 
@@ -230,6 +231,7 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 1em;
   margin-bottom: 20px;
@@ -289,18 +291,17 @@ h1, h2 {
     font-size: 1.5em;
   }
   .vector-art-grid {
-    width: 95vw;
+    width: 100%;
   }
   .vector-art-img-tile {
-    width: 85vw;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
+    margin: 5px 0;
   }
   .tile-container {
-    width: 85vw;
+    width: 100%;
   }
   .tile-img {
-    width: 85vw;
+    width: 100%;
   }
 }
 
