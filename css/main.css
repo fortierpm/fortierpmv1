@@ -135,6 +135,7 @@ h1, h2 {font-weight: normal;}
   .segment-heading {font-size: 1.5em;}
   .vector-art-grid {width: auto;}
   .vector-art-img-tile {width: 80vw; margin: 5px 0;}
+  .tile-container {width: 80vw;}
   .tile-img {width: 80vw;}
 }
 /* WEB PROJECTS */
