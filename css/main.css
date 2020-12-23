@@ -253,7 +253,7 @@ h1, h2 {
   display: grid;
   grid-template-columns: repeat(3, auto);
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
 .vector-art-image-tile {
   margin: 5px;
@@ -283,25 +283,23 @@ h1, h2 {
 }
 @media screen and (max-width: 500px) {
   .segment {
-    width: 95vw;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 2vw;
   }
   .segment-heading {
     font-size: 1.5em;
   }
   .vector-art-grid {
-    width: 100%;
+    width: 90vw;
   }
   .vector-art-img-tile {
-    width: 100%;
+    width: 85vw;
     margin: 5px 0;
   }
   .tile-container {
-    width: 100%;
+    width: 85vw;
   }
   .tile-img {
-    width: 100%;
+    width: 85vw;
   }
 }
 
