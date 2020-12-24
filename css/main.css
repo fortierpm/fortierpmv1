@@ -131,7 +131,7 @@ h1, h2 {font-weight: normal;}
   .vector-art-grid {grid-template-columns: repeat(1, auto);}
 }
 @media screen and (max-width: 500px) {
-  .segment {padding: 1em;}
+  .segment {padding: 0;}
   .segment-heading {font-size: 1.5em;}
   .vector-art-grid {display: flex; flex-direction: column; width: auto; justify-content: center; align-items: center;}
   .vector-art-img-tile {width: 80vw; margin: 5px 0;}
